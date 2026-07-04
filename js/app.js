@@ -110,6 +110,10 @@ function render(welfareList) {
       item.qualifications.length === 0
         ? ""
         : `<p class="meta">필요 자격: ${item.qualifications.join(", ")}</p>`;
+    // 거주 요건 안내 문구 (있을 때만)
+    const residencyText = item.residency
+      ? `<p class="meta">거주 요건: ${item.residency}</p>`
+      : "";
 
     const card = document.createElement("article");
     card.className = "welfare-card";
@@ -120,6 +124,7 @@ function render(welfareList) {
       <p class="meta">대상 나이: ${item.minAge}세 ~ ${item.maxAge}세 · 담당: ${item.department}</p>
       <p class="meta">소득 기준: ${incomeText}</p>
       ${qualText}
+      ${residencyText}
       <a href="${item.applyUrl}" target="_blank" rel="noopener">신청 안내 보기</a>
     `;
     listBox.appendChild(card);

@@ -8,6 +8,7 @@
     "maxAge": 34,
     "incomePercent": 150,
     "qualifications": [],
+    "residency": "파주시 거주",
     "applyUrl": "https://www.paju.go.kr",
     "department": "청년정책과"
   },
@@ -20,6 +21,7 @@
     "maxAge": 200,
     "incomePercent": null,
     "qualifications": [],
+    "residency": "파주시 거주",
     "applyUrl": "https://www.paju.go.kr",
     "department": "노인복지과"
   },
@@ -32,6 +34,7 @@
     "maxAge": 200,
     "incomePercent": null,
     "qualifications": [],
+    "residency": "파주시 거주",
     "applyUrl": "https://www.paju.go.kr",
     "department": "보건소"
   },
@@ -44,6 +47,7 @@
     "maxAge": 18,
     "incomePercent": 63,
     "qualifications": ["한부모가정"],
+    "residency": "파주시 거주",
     "applyUrl": "https://www.paju.go.kr",
     "department": "여성가족과"
   },
@@ -56,6 +60,7 @@
     "maxAge": 200,
     "incomePercent": null,
     "qualifications": ["등록장애인"],
+    "residency": "파주시 거주",
     "applyUrl": "https://www.paju.go.kr",
     "department": "장애인복지과"
   },
@@ -68,6 +73,7 @@
     "maxAge": 200,
     "incomePercent": 75,
     "qualifications": ["기초생활수급자", "차상위계층"],
+    "residency": "파주시 거주",
     "applyUrl": "https://www.paju.go.kr",
     "department": "복지정책과"
   }
