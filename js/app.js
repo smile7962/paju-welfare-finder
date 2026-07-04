@@ -126,6 +126,18 @@ function render(welfareList) {
   });
 }
 
+// 모든 조건을 처음 상태로 되돌립니다.
+function resetFilter() {
+  document.getElementById("filter-age").value = "";
+  document.getElementById("filter-category").value = "전체";
+  document.getElementById("filter-household").value = "";
+  document.getElementById("filter-income").value = "";
+  document.querySelectorAll(".qual-check").forEach(function (c) {
+    c.checked = false;
+  });
+  applyFilter();
+}
+
 // 입력이 바뀔 때마다 자동으로 다시 필터링합니다.
 document.getElementById("filter-age").addEventListener("input", applyFilter);
 document.getElementById("filter-category").addEventListener("change", applyFilter);
@@ -134,6 +146,7 @@ document.getElementById("filter-income").addEventListener("input", applyFilter);
 document.querySelectorAll(".qual-check").forEach(function (c) {
   c.addEventListener("change", applyFilter);
 });
+document.getElementById("reset-btn").addEventListener("click", resetFilter);
 
 // 페이지가 열리면 데이터를 불러옵니다.
 loadData();
