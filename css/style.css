@@ -1,0 +1,79 @@
+/* 파주 복지 찾기 - 기본 스타일 */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
+  background: #f4f6f8;
+  color: #222;
+}
+
+.header {
+  background: #2f6feb;
+  color: #fff;
+  padding: 24px 16px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0 0 8px;
+  font-size: 24px;
+}
+
+.header p {
+  margin: 0;
+  opacity: 0.9;
+}
+
+.container {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.welfare-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.welfare-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.badge {
+  display: inline-block;
+  background: #e5efff;
+  color: #2f6feb;
+  font-size: 13px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  margin-bottom: 8px;
+}
+
+.welfare-card h2 {
+  margin: 4px 0 8px;
+  font-size: 18px;
+}
+
+.welfare-card p {
+  margin: 0 0 8px;
+  line-height: 1.5;
+}
+
+.meta {
+  color: #666;
+  font-size: 14px;
+}
+
+.welfare-card a {
+  color: #2f6feb;
+  font-weight: bold;
+  text-decoration: none;
+}

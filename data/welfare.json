@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "파주시 청년 월세 지원",
+    "summary": "만 19~34세 청년에게 월세 일부를 지원합니다. (예시 데이터)",
+    "category": "청년",
+    "minAge": 19,
+    "maxAge": 34,
+    "applyUrl": "https://www.paju.go.kr",
+    "department": "청년정책과"
+  },
+  {
+    "id": 2,
+    "title": "어르신 교통비 지원",
+    "summary": "만 65세 이상 어르신에게 대중교통비를 지원합니다. (예시 데이터)",
+    "category": "노인",
+    "minAge": 65,
+    "maxAge": 200,
+    "applyUrl": "https://www.paju.go.kr",
+    "department": "노인복지과"
+  },
+  {
+    "id": 3,
+    "title": "임산부 건강관리 지원",
+    "summary": "파주시에 거주하는 임산부의 건강검진 비용을 지원합니다. (예시 데이터)",
+    "category": "임산부·출산",
+    "minAge": 0,
+    "maxAge": 200,
+    "applyUrl": "https://www.paju.go.kr",
+    "department": "보건소"
+  }
+]
