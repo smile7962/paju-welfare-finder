@@ -6,6 +6,8 @@
     "category": "청년",
     "minAge": 19,
     "maxAge": 34,
+    "incomePercent": 150,
+    "qualifications": [],
     "applyUrl": "https://www.paju.go.kr",
     "department": "청년정책과"
   },
@@ -16,6 +18,8 @@
     "category": "노인",
     "minAge": 65,
     "maxAge": 200,
+    "incomePercent": null,
+    "qualifications": [],
     "applyUrl": "https://www.paju.go.kr",
     "department": "노인복지과"
   },
@@ -26,7 +30,45 @@
     "category": "임산부·출산",
     "minAge": 0,
     "maxAge": 200,
+    "incomePercent": null,
+    "qualifications": [],
     "applyUrl": "https://www.paju.go.kr",
     "department": "보건소"
+  },
+  {
+    "id": 4,
+    "title": "한부모가정 아동양육비 지원",
+    "summary": "저소득 한부모가정의 만 18세 미만 자녀 양육비를 지원합니다. (예시 데이터)",
+    "category": "아동·청소년",
+    "minAge": 0,
+    "maxAge": 18,
+    "incomePercent": 63,
+    "qualifications": ["한부모가정"],
+    "applyUrl": "https://www.paju.go.kr",
+    "department": "여성가족과"
+  },
+  {
+    "id": 5,
+    "title": "장애인 활동지원 서비스",
+    "summary": "일상생활이 어려운 등록장애인에게 활동지원사를 지원합니다. (예시 데이터)",
+    "category": "장애인",
+    "minAge": 0,
+    "maxAge": 200,
+    "incomePercent": null,
+    "qualifications": ["등록장애인"],
+    "applyUrl": "https://www.paju.go.kr",
+    "department": "장애인복지과"
+  },
+  {
+    "id": 6,
+    "title": "저소득층 긴급생계비 지원",
+    "summary": "갑작스러운 위기로 생계가 곤란한 저소득 가구에 생계비를 지원합니다. (예시 데이터)",
+    "category": "저소득",
+    "minAge": 0,
+    "maxAge": 200,
+    "incomePercent": 75,
+    "qualifications": ["기초생활수급자", "차상위계층"],
+    "applyUrl": "https://www.paju.go.kr",
+    "department": "복지정책과"
   }
 ]
